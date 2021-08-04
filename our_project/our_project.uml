@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_lJufcPUUEeu2N6Jorl8fBQ" name="our_project">
+    <eAnnotations xmi:id="_n9DisPUUEeu2N6Jorl8fBQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_n9EJwPUUEeu2N6Jorl8fBQ" source="codegen">
+        <details xmi:id="_n9EJwfUUEeu2N6Jorl8fBQ" key="codegenDirectory" value="/our_project/src"/>
+        <details xmi:id="_o3r-8PUUEeu2N6Jorl8fBQ" key="AssociatedSourceCode" value="/our_project/src/our_project/COD.java;2427132703/1;/our_project/src/our_project/ColdDrinks.java;2285804122/1;/our_project/src/our_project/Discount.java;3177252340/1;/our_project/src/our_project/Drinks.java;4234528075/1;/our_project/src/our_project/HappyMeal.java;1084325497/1;/our_project/src/our_project/Kfc.java;3008347723/1;/our_project/src/our_project/MainClass.java;3683107976/1;/our_project/src/our_project/Manual.java;2183201358/1;/our_project/src/our_project/Mcdonald.java;2083480851/1;/our_project/src/our_project/Meal.java;3803060759/1;/our_project/src/our_project/Order.java;639727347/1;/our_project/src/our_project/Panda_Wallet.java;2572021729/1;/our_project/src/our_project/Payment.java;1083337917/1;/our_project/src/our_project/Payment_Decorators.java;3162482386/1;/our_project/src/our_project/Promo.java;22377626/1;/our_project/src/our_project/RestaurantFactory.java;2136081352/1;/our_project/src/our_project/Shakes.java;2340478340/1;/our_project/src/our_project/Voucher.java;3402995974/1;/our_project/src/our_project/WowBox.java;2257156002/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_oOU44PUUEeu2N6Jorl8fBQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_oOVf8PUUEeu2N6Jorl8fBQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_oOVf8fUUEeu2N6Jorl8fBQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_oOWHAPUUEeu2N6Jorl8fBQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_oOWHAfUUEeu2N6Jorl8fBQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_oOWHAvUUEeu2N6Jorl8fBQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_oOWHA_UUEeu2N6Jorl8fBQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_oOWuEPUUEeu2N6Jorl8fBQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_oOXVIPUUEeu2N6Jorl8fBQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oOiUQPUUEeu2N6Jorl8fBQ" name="our_project">
+      <packagedElement xmi:type="uml:Class" xmi:id="_oP8CcPUUEeu2N6Jorl8fBQ" name="COD">
+        <interfaceRealization xmi:id="_oYp5kPUUEeu2N6Jorl8fBQ" client="_oP8CcPUUEeu2N6Jorl8fBQ" supplier="_oRLYkPUUEeu2N6Jorl8fBQ" contract="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZfnEPUUEeu2N6Jorl8fBQ" name="pay" specification="_oQDXMPUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>System.out.println(&quot;You have selected COD as payment method&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oQDXMPUUEeu2N6Jorl8fBQ" name="pay" method="_oZfnEPUUEeu2N6Jorl8fBQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oQLTAPUUEeu2N6Jorl8fBQ" name="ColdDrinks">
+        <interfaceRealization xmi:id="_oYrHsPUUEeu2N6Jorl8fBQ" client="_oQLTAPUUEeu2N6Jorl8fBQ" supplier="_oQYHUPUUEeu2N6Jorl8fBQ" contract="_oQYHUPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZkfkPUUEeu2N6Jorl8fBQ" name="mydrink" specification="_oQMhIPUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>System.out.println(&quot;Cold Drink is added&quot;);&#xD;
+	   </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oQMhIPUUEeu2N6Jorl8fBQ" name="mydrink" method="_oZkfkPUUEeu2N6Jorl8fBQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oQQykPUUEeu2N6Jorl8fBQ" name="Discount">
+        <generalization xmi:id="_oYtj8PUUEeu2N6Jorl8fBQ" general="_oRT7cPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZlGoPUUEeu2N6Jorl8fBQ" name="Discount" specification="_oYsV0PUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZltsPUUEeu2N6Jorl8fBQ" name="decoratedPayment" type="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+          <ownedParameter xmi:id="_oZltsfUUEeu2N6Jorl8fBQ" type="_oQQykPUUEeu2N6Jorl8fBQ" direction="return"/>
+          <language>java</language>
+          <body>super(decoratedPayment);		&#xD;
+	   </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZltsvUUEeu2N6Jorl8fBQ" name="pay" specification="_oQTO0PUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>decoratedPayment.pay();	       &#xD;
+		   System.out.println(&quot;Decorator: Discount&quot;);&#xD;
+		 </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oQTO0PUUEeu2N6Jorl8fBQ" name="pay" method="_oZltsvUUEeu2N6Jorl8fBQ"/>
+        <ownedOperation xmi:id="_oYsV0PUUEeu2N6Jorl8fBQ" name="Discount" method="_oZlGoPUUEeu2N6Jorl8fBQ">
+          <eAnnotations xmi:id="_oYs84PUUEeu2N6Jorl8fBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_oYs84fUUEeu2N6Jorl8fBQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_oYsV0fUUEeu2N6Jorl8fBQ" name="decoratedPayment" type="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+          <ownedParameter xmi:id="_oYs84vUUEeu2N6Jorl8fBQ" type="_oQQykPUUEeu2N6Jorl8fBQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_oQYHUPUUEeu2N6Jorl8fBQ" name="Drinks">
+        <ownedOperation xmi:id="_oQZVcPUUEeu2N6Jorl8fBQ" name="mydrink"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oQajkPUUEeu2N6Jorl8fBQ" name="HappyMeal">
+        <interfaceRealization xmi:id="_oYuLAPUUEeu2N6Jorl8fBQ" client="_oQajkPUUEeu2N6Jorl8fBQ" supplier="_oRJjYPUUEeu2N6Jorl8fBQ" contract="_oRJjYPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZmUwPUUEeu2N6Jorl8fBQ" name="mymeal" specification="_oQcYwPUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>System.out.println(&quot;Happy meal is added&quot;);&#xD;
+	   </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oQcYwPUUEeu2N6Jorl8fBQ" name="mymeal" method="_oZmUwPUUEeu2N6Jorl8fBQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oQgqMPUUEeu2N6Jorl8fBQ" name="Kfc">
+        <generalization xmi:id="_oYvZIfUUEeu2N6Jorl8fBQ" general="_oRfhoPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZm70PUUEeu2N6Jorl8fBQ" name="OrderDrink" specification="_oQhRQPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZm70fUUEeu2N6Jorl8fBQ" type="_oQYHUPUUEeu2N6Jorl8fBQ" direction="return"/>
+          <language>java</language>
+          <body>return new ColdDrinks();</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZni4PUUEeu2N6Jorl8fBQ" name="OrderMeal" specification="_oQlisPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZni4fUUEeu2N6Jorl8fBQ" type="_oRJjYPUUEeu2N6Jorl8fBQ" direction="return"/>
+          <language>java</language>
+          <body>return new WowBox();</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZni4vUUEeu2N6Jorl8fBQ" name="showMessage" specification="_oQomAPUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>System.out.println(&quot;Welcome to Kfc!&quot;);&#xD;
+	 </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oQhRQPUUEeu2N6Jorl8fBQ" name="OrderDrink" method="_oZm70PUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oYuyEPUUEeu2N6Jorl8fBQ" type="_oQYHUPUUEeu2N6Jorl8fBQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oQlisPUUEeu2N6Jorl8fBQ" name="OrderMeal" method="_oZni4PUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oYvZIPUUEeu2N6Jorl8fBQ" type="_oRJjYPUUEeu2N6Jorl8fBQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oQomAPUUEeu2N6Jorl8fBQ" name="showMessage" method="_oZni4vUUEeu2N6Jorl8fBQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oQs3cPUUEeu2N6Jorl8fBQ" name="MainClass" isAbstract="true">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZoJ8PUUEeu2N6Jorl8fBQ" name="main" specification="_oQwh0PUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZoJ8fUUEeu2N6Jorl8fBQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oZoJ8vUUEeu2N6Jorl8fBQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// TODO Auto-generated method stub&#xD;
+&#xD;
+		&#xD;
+		 Scanner Scan = new Scanner(System.in);&#xD;
+		 System.out.println(&quot;Welcome to Food Panda&quot; + &quot;\n&quot; +&#xD;
+		 &quot;Please choose your favourite restaurant: Available restaurants are ..&quot; +&#xD;
+		 &quot;\n&quot;+ &quot;---Kfc&quot;+&quot;\n&quot;+&quot;---Mcdonalds&quot;); &#xD;
+		 &#xD;
+		 &#xD;
+		 &#xD;
+		 &#xD;
+		 //Client choosing restaurant (factory)&#xD;
+		 //Client is directly dealing with abstract interface of factories (restaurant)&#xD;
+		 String Restaurant = Scan.next();&#xD;
+		 RestaurantFactory.MyRestaurant(Restaurant.toLowerCase());&#xD;
+		&#xD;
+		 //client asking for menu&#xD;
+		 System.out.println(&quot;Do you want to see the menu card?&quot;); &#xD;
+		 String menuchoice =Scan.next();&#xD;
+		 RestaurantFactory.MyMenu(menuchoice.toLowerCase());&#xD;
+				 &#xD;
+		 //Client choosing food item (products)&#xD;
+		 //objects (food items) will be created from the respective factory&#xD;
+	     String myorder=Scan.next();&#xD;
+	     RestaurantFactory.MyOrder(myorder.toLowerCase());&#xD;
+	     &#xD;
+			&#xD;
+		 //Client choosing payment method&#xD;
+	     System.out.println(&quot;Confirm Order ?&quot;);&#xD;
+		 String confirmation=Scan.next(); &#xD;
+		 if (confirmation.equals(&quot;yes&quot;)) {&#xD;
+			 &#xD;
+		 //Client choosing its strategy	 &#xD;
+		 System.out.println(&quot;Please choose payment method&quot;+&quot;\n&quot;+&quot;1-COD&quot;+&quot;\n&quot;+&quot;2-Wallet&quot;); &#xD;
+		 String paymentchoice=Scan.next(); &#xD;
+		  &#xD;
+		 //object of context class&#xD;
+		 Payment mychoicepay =new Payment();&#xD;
+		 &#xD;
+		 //strategy object (payment method) is created based on user choice&#xD;
+			if (paymentchoice.equals(&quot;cod&quot;)) &#xD;
+		      { &#xD;
+			    mychoicepay.setStrategy(new COD());&#xD;
+				mychoicepay.paynow();&#xD;
+				&#xD;
+				//decorator is chosen by user and decorator is wrapped in chosen payment method&#xD;
+				System.out.println(&quot;Do you have any Voucher,Promo or Discount?&quot;); &#xD;
+				String decoratorchoice=Scan.next(); &#xD;
+				&#xD;
+				if (decoratorchoice.equals(&quot;discount&quot;))&#xD;
+				{Order mydiscount = new Discount(new COD());mydiscount.pay();}&#xD;
+				&#xD;
+				else if(decoratorchoice.equals(&quot;voucher&quot;))&#xD;
+				{Order mydiscount = new Voucher(new COD());mydiscount.pay();}&#xD;
+				&#xD;
+				else {Order mydiscount = new Promo(new COD());mydiscount.pay();}&#xD;
+				&#xD;
+		      } &#xD;
+			&#xD;
+			else&#xD;
+		      { &#xD;
+				mychoicepay.setStrategy(new Panda_Wallet());&#xD;
+				mychoicepay.paynow();&#xD;
+				&#xD;
+				System.out.println(&quot;Do you have any Voucher,Promo or Discount?&quot;); &#xD;
+				String decoratorchoice=Scan.next(); &#xD;
+				&#xD;
+				//decorator is chosen by user and decorator is wrapped in chosen payment method&#xD;
+				if (decoratorchoice.equals(&quot;discount&quot;))&#xD;
+				{Order mydiscount = new Discount(new Panda_Wallet());mydiscount.pay();}&#xD;
+				&#xD;
+				else if(decoratorchoice.equals(&quot;voucher&quot;))&#xD;
+				{Order mydiscount = new Voucher(new Panda_Wallet());mydiscount.pay();}&#xD;
+				&#xD;
+				else {Order mydiscount = new Promo(new Panda_Wallet());mydiscount.pay();}&#xD;
+				&#xD;
+		      } &#xD;
+			&#xD;
+				&#xD;
+			&#xD;
+		 }&#xD;
+			  &#xD;
+		&#xD;
+			 &#xD;
+	     &#xD;
+	     &#xD;
+	     &#xD;
+	     &#xD;
+	    &#xD;
+	     &#xD;
+	     &#xD;
+	     &#xD;
+	     &#xD;
+	     &#xD;
+	     &#xD;
+	     Scan.close();&#xD;
+	 </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oQwh0PUUEeu2N6Jorl8fBQ" name="main" isStatic="true" method="_oZoJ8PUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oQxI4PUUEeu2N6Jorl8fBQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oQyXAPUUEeu2N6Jorl8fBQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oQ0MMPUUEeu2N6Jorl8fBQ" name="Manual">
+        <ownedAttribute xmi:id="_oZHzoPUUEeu2N6Jorl8fBQ" name="Manualinstance" visibility="private" isStatic="true" type="_oQ0MMPUUEeu2N6Jorl8fBQ" association="_oZ52wPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZpYEPUUEeu2N6Jorl8fBQ" name="getInstance" specification="_oQ8vEPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZpYEfUUEeu2N6Jorl8fBQ" type="_oQ0MMPUUEeu2N6Jorl8fBQ" direction="return"/>
+          <language>java</language>
+          <body>if (Manualinstance == null) {Manualinstance = new Manual();&#xD;
+		      return Manualinstance;}&#xD;
+			  &#xD;
+			  else&#xD;
+			  return Manualinstance;&#xD;
+		   </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZp_IPUUEeu2N6Jorl8fBQ" name="ManualPrint" specification="_oQ99MPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZp_IfUUEeu2N6Jorl8fBQ" name="mymenu">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (mymenu.contains(&quot;Kfc&quot;)){&#xD;
+		      System.out.println(&quot;Kfc Menu!&quot;+&quot;\n&quot;+&quot;1- WoW Box: Rs 500&quot;+&quot;\n&quot;+&quot;2- Cold Drink: Rs 100&quot;);&#xD;
+		   }&#xD;
+			   &#xD;
+			   else {&#xD;
+			   System.out.println(&quot;Mcdonald Menu!&quot;+&quot;\n&quot;+&quot;1- Happy Meal Box: Rs 500&quot;+&quot;\n&quot;+&quot;2- Shake: Rs 100&quot;);&#xD;
+			   }&#xD;
+			System.out.println(&quot;So .. what do u want to order? &quot; +&quot;\n&quot;+ &quot;--Meal&quot; + &quot;\n&quot; + &quot;--Drink&quot;);&#xD;
+			&#xD;
+		   </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oQ6S0PUUEeu2N6Jorl8fBQ" name="Manual" visibility="private">
+          <eAnnotations xmi:id="_oQ654PUUEeu2N6Jorl8fBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_oQ7g8PUUEeu2N6Jorl8fBQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_oQ8IAfUUEeu2N6Jorl8fBQ" type="_oQ0MMPUUEeu2N6Jorl8fBQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oQ8vEPUUEeu2N6Jorl8fBQ" name="getInstance" isStatic="true" method="_oZpYEPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oY2G0PUUEeu2N6Jorl8fBQ" type="_oQ0MMPUUEeu2N6Jorl8fBQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oQ99MPUUEeu2N6Jorl8fBQ" name="ManualPrint" method="_oZp_IPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oQ99MfUUEeu2N6Jorl8fBQ" name="mymenu">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oRAZcPUUEeu2N6Jorl8fBQ" name="Mcdonald">
+        <generalization xmi:id="_oY4jEPUUEeu2N6Jorl8fBQ" general="_oRfhoPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZqmMPUUEeu2N6Jorl8fBQ" name="OrderDrink" specification="_oRBnkPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZqmMfUUEeu2N6Jorl8fBQ" type="_oQYHUPUUEeu2N6Jorl8fBQ" direction="return"/>
+          <language>java</language>
+          <body>return new Shakes();</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZrNQPUUEeu2N6Jorl8fBQ" name="OrderMeal" specification="_oRDcwPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZrNQfUUEeu2N6Jorl8fBQ" type="_oRJjYPUUEeu2N6Jorl8fBQ" direction="return"/>
+          <language>java</language>
+          <body>return new HappyMeal();</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZrNQvUUEeu2N6Jorl8fBQ" name="showMessage" specification="_oRGgEPUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>System.out.println(&quot;Welcome to Mcdonald!&quot;);&#xD;
+	 </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oRBnkPUUEeu2N6Jorl8fBQ" name="OrderDrink" method="_oZqmMPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oY3U8PUUEeu2N6Jorl8fBQ" type="_oQYHUPUUEeu2N6Jorl8fBQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oRDcwPUUEeu2N6Jorl8fBQ" name="OrderMeal" method="_oZrNQPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oY38APUUEeu2N6Jorl8fBQ" type="_oRJjYPUUEeu2N6Jorl8fBQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oRGgEPUUEeu2N6Jorl8fBQ" name="showMessage" method="_oZrNQvUUEeu2N6Jorl8fBQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_oRJjYPUUEeu2N6Jorl8fBQ" name="Meal">
+        <ownedOperation xmi:id="_oRKxgPUUEeu2N6Jorl8fBQ" name="mymeal"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_oRLYkPUUEeu2N6Jorl8fBQ" name="Order">
+        <ownedOperation xmi:id="_oRL_oPUUEeu2N6Jorl8fBQ" name="pay"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oRMmsPUUEeu2N6Jorl8fBQ" name="Panda_Wallet">
+        <interfaceRealization xmi:id="_oY5KIPUUEeu2N6Jorl8fBQ" client="_oRMmsPUUEeu2N6Jorl8fBQ" supplier="_oRLYkPUUEeu2N6Jorl8fBQ" contract="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZr0UPUUEeu2N6Jorl8fBQ" name="pay" specification="_oRNNwPUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>System.out.println(&quot;You have selected Panda Wallet as payment method&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oRNNwPUUEeu2N6Jorl8fBQ" name="pay" method="_oZr0UPUUEeu2N6Jorl8fBQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oRQ4IPUUEeu2N6Jorl8fBQ" name="Payment">
+        <ownedAttribute xmi:id="_oZJo0PUUEeu2N6Jorl8fBQ" name="mypayment" visibility="private" type="_oRLYkPUUEeu2N6Jorl8fBQ" association="_oZ7r8fUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZsbYPUUEeu2N6Jorl8fBQ" name="setStrategy" specification="_oY6_UPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZsbYfUUEeu2N6Jorl8fBQ" name="strategy" type="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+          <language>java</language>
+          <body>this.mypayment = strategy;&#xD;
+		 </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZsbYvUUEeu2N6Jorl8fBQ" name="paynow" specification="_oRSGQPUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>mypayment.pay();&#xD;
+	 </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oRSGQPUUEeu2N6Jorl8fBQ" name="paynow" method="_oZsbYvUUEeu2N6Jorl8fBQ"/>
+        <ownedOperation xmi:id="_oY6_UPUUEeu2N6Jorl8fBQ" name="setStrategy" method="_oZsbYPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oY6_UfUUEeu2N6Jorl8fBQ" name="strategy" type="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oRT7cPUUEeu2N6Jorl8fBQ" name="Payment_Decorators" isAbstract="true">
+        <ownedAttribute xmi:id="_oZLeAfUUEeu2N6Jorl8fBQ" name="decoratedPayment" visibility="protected" type="_oRLYkPUUEeu2N6Jorl8fBQ" association="_oZ9hIPUUEeu2N6Jorl8fBQ"/>
+        <interfaceRealization xmi:id="_oY7mYPUUEeu2N6Jorl8fBQ" client="_oRT7cPUUEeu2N6Jorl8fBQ" supplier="_oRLYkPUUEeu2N6Jorl8fBQ" contract="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZtCcPUUEeu2N6Jorl8fBQ" name="Payment_Decorators" specification="_oY80gPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZtCcfUUEeu2N6Jorl8fBQ" name="decoratedPayment" type="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+          <ownedParameter xmi:id="_oZtCcvUUEeu2N6Jorl8fBQ" type="_oRT7cPUUEeu2N6Jorl8fBQ" direction="return"/>
+          <language>java</language>
+          <body>this.decoratedPayment = decoratedPayment;&#xD;
+	   </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZtCc_UUEeu2N6Jorl8fBQ" name="pay" specification="_oRVwoPUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>decoratedPayment.pay();&#xD;
+	   </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oRVwoPUUEeu2N6Jorl8fBQ" name="pay" method="_oZtCc_UUEeu2N6Jorl8fBQ"/>
+        <ownedOperation xmi:id="_oY80gPUUEeu2N6Jorl8fBQ" name="Payment_Decorators" method="_oZtCcPUUEeu2N6Jorl8fBQ">
+          <eAnnotations xmi:id="_oY9bkPUUEeu2N6Jorl8fBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_oY9bkfUUEeu2N6Jorl8fBQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_oY80gfUUEeu2N6Jorl8fBQ" name="decoratedPayment" type="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+          <ownedParameter xmi:id="_oY-CoPUUEeu2N6Jorl8fBQ" type="_oRT7cPUUEeu2N6Jorl8fBQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oRaCEPUUEeu2N6Jorl8fBQ" name="Promo">
+        <generalization xmi:id="_oY_30fUUEeu2N6Jorl8fBQ" general="_oRT7cPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZuQkPUUEeu2N6Jorl8fBQ" name="Promo" specification="_oY-psPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZuQkfUUEeu2N6Jorl8fBQ" name="decoratedPayment" type="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+          <ownedParameter xmi:id="_oZuQkvUUEeu2N6Jorl8fBQ" type="_oRaCEPUUEeu2N6Jorl8fBQ" direction="return"/>
+          <language>java</language>
+          <body>super(decoratedPayment);		&#xD;
+	   </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZu3oPUUEeu2N6Jorl8fBQ" name="pay" specification="_oRb3QPUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>decoratedPayment.pay();	       &#xD;
+		   System.out.println(&quot;Decorator: Promo&quot;);&#xD;
+	   </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oRb3QPUUEeu2N6Jorl8fBQ" name="pay" method="_oZu3oPUUEeu2N6Jorl8fBQ"/>
+        <ownedOperation xmi:id="_oY-psPUUEeu2N6Jorl8fBQ" name="Promo" method="_oZuQkPUUEeu2N6Jorl8fBQ">
+          <eAnnotations xmi:id="_oY_QwfUUEeu2N6Jorl8fBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_oY_QwvUUEeu2N6Jorl8fBQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_oY_QwPUUEeu2N6Jorl8fBQ" name="decoratedPayment" type="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+          <ownedParameter xmi:id="_oY_30PUUEeu2N6Jorl8fBQ" type="_oRaCEPUUEeu2N6Jorl8fBQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oRfhoPUUEeu2N6Jorl8fBQ" name="RestaurantFactory" visibility="public" isAbstract="true">
+        <ownedAttribute xmi:id="_oZMsIPUUEeu2N6Jorl8fBQ" name="mychoice" visibility="package" isStatic="true" type="_oRfhoPUUEeu2N6Jorl8fBQ" association="_oZ-vQPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZvesPUUEeu2N6Jorl8fBQ" name="MyRestaurant" specification="_oRjMAPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZvesfUUEeu2N6Jorl8fBQ" name="restaurant">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(restaurant.equals(&quot;kfc&quot;))&#xD;
+	      { &#xD;
+	    	  mychoice = new Kfc();&#xD;
+	    	  mychoice.showMessage();&#xD;
+	    	  &#xD;
+	      }&#xD;
+	      &#xD;
+	      else&#xD;
+	      {&#xD;
+	    	  mychoice = new Mcdonald();&#xD;
+ 	      mychoice.showMessage();&#xD;
+	      }&#xD;
+	  	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZwFwPUUEeu2N6Jorl8fBQ" name="MyMenu" specification="_oRkaIPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZwFwfUUEeu2N6Jorl8fBQ" name="choice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (choice.equals(&quot;yes&quot;)) {&#xD;
+			 Manual.getInstance().ManualPrint(mychoice.toString());&#xD;
+		}&#xD;
+		 &#xD;
+		 else {System.out.println(&quot;So .. what do u want to order? &quot; +&quot;\n&quot;+ &quot;--Meal&quot; + &quot;\n&quot; + &quot;--Drink&quot;);}&#xD;
+		 &#xD;
+	 </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZws0PUUEeu2N6Jorl8fBQ" name="MyOrder" specification="_oRmPUPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZws0fUUEeu2N6Jorl8fBQ" name="myorder">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (myorder.equals(&quot;meal&quot;)) {&#xD;
+			Meal order= mychoice.OrderMeal();&#xD;
+			order.mymeal();&#xD;
+		 }&#xD;
+		 &#xD;
+		 else if (myorder.equals(&quot;drink&quot;)) {&#xD;
+			 Drinks order= mychoice.OrderDrink();&#xD;
+			 order.mydrink();&#xD;
+		 }&#xD;
+		 &#xD;
+		 else if  (myorder.equals(&quot;both&quot;)) {&#xD;
+			 Meal order1= mychoice.OrderMeal();&#xD;
+			 order1.mymeal();&#xD;
+			 Drinks order2= mychoice.OrderDrink();&#xD;
+			 order2.mydrink();&#xD;
+			 &#xD;
+		 }&#xD;
+	 </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oRgvwPUUEeu2N6Jorl8fBQ" name="OrderDrink" visibility="package" isAbstract="true">
+          <ownedParameter xmi:id="_oZAe4PUUEeu2N6Jorl8fBQ" type="_oQYHUPUUEeu2N6Jorl8fBQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oRhW0PUUEeu2N6Jorl8fBQ" name="OrderMeal" visibility="package" isAbstract="true">
+          <ownedParameter xmi:id="_oZBF8PUUEeu2N6Jorl8fBQ" type="_oRJjYPUUEeu2N6Jorl8fBQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oRh94PUUEeu2N6Jorl8fBQ" name="showMessage" visibility="package" isAbstract="true"/>
+        <ownedOperation xmi:id="_oRjMAPUUEeu2N6Jorl8fBQ" name="MyRestaurant" isStatic="true" method="_oZvesPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oRjMAfUUEeu2N6Jorl8fBQ" name="restaurant">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oRkaIPUUEeu2N6Jorl8fBQ" name="MyMenu" isStatic="true" method="_oZwFwPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oRkaIfUUEeu2N6Jorl8fBQ" name="choice">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oRmPUPUUEeu2N6Jorl8fBQ" name="MyOrder" isStatic="true" method="_oZws0PUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oRmPUfUUEeu2N6Jorl8fBQ" name="myorder">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oRqgwPUUEeu2N6Jorl8fBQ" name="Shakes">
+        <interfaceRealization xmi:id="_oZBtAPUUEeu2N6Jorl8fBQ" client="_oRqgwPUUEeu2N6Jorl8fBQ" supplier="_oQYHUPUUEeu2N6Jorl8fBQ" contract="_oQYHUPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZxT4PUUEeu2N6Jorl8fBQ" name="mydrink" specification="_oRsV8PUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>System.out.println(&quot;Shake is added&quot;);&#xD;
+	   </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oRsV8PUUEeu2N6Jorl8fBQ" name="mydrink" method="_oZxT4PUUEeu2N6Jorl8fBQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oRuyMPUUEeu2N6Jorl8fBQ" name="Voucher">
+        <generalization xmi:id="_oZEJQPUUEeu2N6Jorl8fBQ" general="_oRT7cPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZx68PUUEeu2N6Jorl8fBQ" name="Voucher" specification="_oZC7IPUUEeu2N6Jorl8fBQ">
+          <ownedParameter xmi:id="_oZx68fUUEeu2N6Jorl8fBQ" name="decoratedPayment" type="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+          <ownedParameter xmi:id="_oZx68vUUEeu2N6Jorl8fBQ" type="_oRuyMPUUEeu2N6Jorl8fBQ" direction="return"/>
+          <language>java</language>
+          <body>super(decoratedPayment);		&#xD;
+	   </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZzJEPUUEeu2N6Jorl8fBQ" name="pay" specification="_oRwnYPUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>decoratedPayment.pay();	       &#xD;
+		  System.out.println(&quot;Decorator: Voucher&quot;);&#xD;
+	   </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oRwnYPUUEeu2N6Jorl8fBQ" name="pay" method="_oZzJEPUUEeu2N6Jorl8fBQ"/>
+        <ownedOperation xmi:id="_oZC7IPUUEeu2N6Jorl8fBQ" name="Voucher" method="_oZx68PUUEeu2N6Jorl8fBQ">
+          <eAnnotations xmi:id="_oZDiMPUUEeu2N6Jorl8fBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_oZDiMfUUEeu2N6Jorl8fBQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_oZC7IfUUEeu2N6Jorl8fBQ" name="decoratedPayment" type="_oRLYkPUUEeu2N6Jorl8fBQ"/>
+          <ownedParameter xmi:id="_oZDiMvUUEeu2N6Jorl8fBQ" type="_oRuyMPUUEeu2N6Jorl8fBQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oR2uAPUUEeu2N6Jorl8fBQ" name="WowBox">
+        <interfaceRealization xmi:id="_oZEwUPUUEeu2N6Jorl8fBQ" client="_oR2uAPUUEeu2N6Jorl8fBQ" supplier="_oRJjYPUUEeu2N6Jorl8fBQ" contract="_oRJjYPUUEeu2N6Jorl8fBQ"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_oZzwIPUUEeu2N6Jorl8fBQ" name="mymeal" specification="_oR38IPUUEeu2N6Jorl8fBQ">
+          <language>java</language>
+          <body>System.out.println(&quot;WoWbox is added&quot;);&#xD;
+	   </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oR38IPUUEeu2N6Jorl8fBQ" name="mymeal" method="_oZzwIPUUEeu2N6Jorl8fBQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_oZ52wPUUEeu2N6Jorl8fBQ" name="" memberEnd="_oZ52wfUUEeu2N6Jorl8fBQ _oZHzoPUUEeu2N6Jorl8fBQ">
+        <ownedEnd xmi:id="_oZ52wfUUEeu2N6Jorl8fBQ" name="" type="_oQ0MMPUUEeu2N6Jorl8fBQ" association="_oZ52wPUUEeu2N6Jorl8fBQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_oZ7r8fUUEeu2N6Jorl8fBQ" name="" memberEnd="_oZ7r8vUUEeu2N6Jorl8fBQ _oZJo0PUUEeu2N6Jorl8fBQ">
+        <ownedEnd xmi:id="_oZ7r8vUUEeu2N6Jorl8fBQ" name="" type="_oRQ4IPUUEeu2N6Jorl8fBQ" association="_oZ7r8fUUEeu2N6Jorl8fBQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_oZ9hIPUUEeu2N6Jorl8fBQ" name="" memberEnd="_oZ9hIfUUEeu2N6Jorl8fBQ _oZLeAfUUEeu2N6Jorl8fBQ">
+        <ownedEnd xmi:id="_oZ9hIfUUEeu2N6Jorl8fBQ" name="" type="_oRT7cPUUEeu2N6Jorl8fBQ" association="_oZ9hIPUUEeu2N6Jorl8fBQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_oZ-vQPUUEeu2N6Jorl8fBQ" name="" memberEnd="_oZ-vQfUUEeu2N6Jorl8fBQ _oZMsIPUUEeu2N6Jorl8fBQ">
+        <ownedEnd xmi:id="_oZ-vQfUUEeu2N6Jorl8fBQ" name="" type="_oRfhoPUUEeu2N6Jorl8fBQ" association="_oZ-vQPUUEeu2N6Jorl8fBQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jqeHoPUeEeuwj8ETuvC8BA" name="NewClass1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oO8j8PUUEeu2N6Jorl8fBQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_oO8j8fUUEeu2N6Jorl8fBQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_oYwAMPUUEeu2N6Jorl8fBQ" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_n9H0IPUUEeu2N6Jorl8fBQ">
+      <eAnnotations xmi:id="_n9NTsPUUEeu2N6Jorl8fBQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_n9UBYPUUEeu2N6Jorl8fBQ" base_Package="_lJufcPUUEeu2N6Jorl8fBQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQGagPUUEeu2N6Jorl8fBQ" base_Element="_oQDXMPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oQJd0PUUEeu2N6Jorl8fBQ" base_Element="_oQDXMPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oQKE4PUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQNvQPUUEeu2N6Jorl8fBQ" base_Element="_oQMhIPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oQOWUPUUEeu2N6Jorl8fBQ" base_Element="_oQMhIPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oQOWUfUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQUc8PUUEeu2N6Jorl8fBQ" base_Element="_oQTO0PUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oQVEAPUUEeu2N6Jorl8fBQ" base_Element="_oQTO0PUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oQVrEPUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQdm4PUUEeu2N6Jorl8fBQ" base_Element="_oQcYwPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oQeN8PUUEeu2N6Jorl8fBQ" base_Element="_oQcYwPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oQeN8fUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQifYPUUEeu2N6Jorl8fBQ" base_Element="_oQhRQPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oQkUkPUUEeu2N6Jorl8fBQ" base_Element="_oQhRQPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oQk7oPUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQmw0PUUEeu2N6Jorl8fBQ" base_Element="_oQlisPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oQn-8PUUEeu2N6Jorl8fBQ" base_Element="_oQlisPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oQn-8fUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQpNEPUUEeu2N6Jorl8fBQ" base_Element="_oQomAPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oQp0IPUUEeu2N6Jorl8fBQ" base_Element="_oQomAPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oQp0IfUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQ8IAPUUEeu2N6Jorl8fBQ" base_Element="_oQ6S0PUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oRCOoPUUEeu2N6Jorl8fBQ" base_Element="_oRBnkPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oRC1sPUUEeu2N6Jorl8fBQ" base_Element="_oRBnkPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oRC1sfUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oREq4PUUEeu2N6Jorl8fBQ" base_Element="_oRDcwPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oRF5APUUEeu2N6Jorl8fBQ" base_Element="_oRDcwPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oRF5AfUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oRHuMPUUEeu2N6Jorl8fBQ" base_Element="_oRGgEPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oRHuMfUUEeu2N6Jorl8fBQ" base_Element="_oRGgEPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oRIVQPUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oROb4PUUEeu2N6Jorl8fBQ" base_Element="_oRNNwPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oRPqAPUUEeu2N6Jorl8fBQ" base_Element="_oRNNwPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oRPqAfUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oRdFYPUUEeu2N6Jorl8fBQ" base_Element="_oRb3QPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oRdscPUUEeu2N6Jorl8fBQ" base_Element="_oRb3QPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oRdscfUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oRs9APUUEeu2N6Jorl8fBQ" base_Element="_oRsV8PUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oRtkEPUUEeu2N6Jorl8fBQ" base_Element="_oRsV8PUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oRtkEfUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oRx1gPUUEeu2N6Jorl8fBQ" base_Element="_oRwnYPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oRyckPUUEeu2N6Jorl8fBQ" base_Element="_oRwnYPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oRzDoPUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR5KQPUUEeu2N6Jorl8fBQ" base_Element="_oR38IPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Annotations xmi:id="_oR5xUPUUEeu2N6Jorl8fBQ" base_Element="_oR38IPUUEeu2N6Jorl8fBQ">
+    <annotations xmi:id="_oR6YYPUUEeu2N6Jorl8fBQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_oYx1YPUUEeu2N6Jorl8fBQ" base_Element="_oYwAMPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oZJBwPUUEeu2N6Jorl8fBQ" base_Element="_oZHzoPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oZLeAPUUEeu2N6Jorl8fBQ" base_Element="_oZJo0PUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oZMFEPUUEeu2N6Jorl8fBQ" base_Element="_oZLeAfUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oZQ9kPUUEeu2N6Jorl8fBQ" base_Element="_oZMsIPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Reference xmi:id="_oZ7r8PUUEeu2N6Jorl8fBQ" base_Element="_oZ52wPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Reference xmi:id="_oZ86EPUUEeu2N6Jorl8fBQ" base_Element="_oZ7r8fUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Reference xmi:id="_oZ-IMPUUEeu2N6Jorl8fBQ" base_Element="_oZ9hIPUUEeu2N6Jorl8fBQ"/>
+  <UMLLabProfile:Reference xmi:id="_oZ_9YPUUEeu2N6Jorl8fBQ" base_Element="_oZ-vQPUUEeu2N6Jorl8fBQ"/>
+</xmi:XMI>
