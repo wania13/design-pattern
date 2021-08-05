@@ -2,7 +2,7 @@ package our_project;
 
 import java.util.Scanner;
 
-public abstract class MainClass {
+public abstract class Client {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -42,7 +42,7 @@ public abstract class MainClass {
 		 String paymentchoice=Scan.next(); 
 		  
 		 //object of context class
-		 Payment mychoicepay =new Payment();
+		 Payment_Strategy mychoicepay =new Payment_Strategy();
 		 
 		 //strategy object (payment method) is created based on user choice
 			if (paymentchoice.equals("cod")) 
@@ -55,12 +55,12 @@ public abstract class MainClass {
 				String decoratorchoice=Scan.next(); 
 				
 				if (decoratorchoice.equals("discount"))
-				{Order mydiscount = new Discount(new COD());mydiscount.pay();}
+				{Payment mydiscount = new Discount(new COD());mydiscount.pay();}
 				
 				else if(decoratorchoice.equals("voucher"))
-				{Order mydiscount = new Voucher(new COD());mydiscount.pay();}
+				{Payment mydiscount = new Voucher(new COD());mydiscount.pay();}
 				
-				else {Order mydiscount = new Promo(new COD());mydiscount.pay();}
+				else {Payment mydiscount = new Promo(new COD());mydiscount.pay();}
 				
 		      } 
 			
@@ -74,12 +74,12 @@ public abstract class MainClass {
 				
 				//decorator is chosen by user and decorator is wrapped in chosen payment method
 				if (decoratorchoice.equals("discount"))
-				{Order mydiscount = new Discount(new Panda_Wallet());mydiscount.pay();}
+				{Payment mydiscount = new Discount(new Panda_Wallet());mydiscount.pay();}
 				
 				else if(decoratorchoice.equals("voucher"))
-				{Order mydiscount = new Voucher(new Panda_Wallet());mydiscount.pay();}
+				{Payment mydiscount = new Voucher(new Panda_Wallet());mydiscount.pay();}
 				
-				else {Order mydiscount = new Promo(new Panda_Wallet());mydiscount.pay();}
+				else {Payment mydiscount = new Promo(new Panda_Wallet());mydiscount.pay();}
 				
 		      } 
 			

@@ -2,7 +2,7 @@ package our_project;
 
 public class Promo extends Payment_Decorators {
 	
-	public Promo(Order decoratedPayment) {
+	public Promo(Payment decoratedPayment) {
 	      super(decoratedPayment);		
 	   }
 	

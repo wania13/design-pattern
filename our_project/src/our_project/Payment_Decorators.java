@@ -1,11 +1,11 @@
 package our_project;
 
-public abstract class Payment_Decorators implements Order{
+public abstract class Payment_Decorators implements Payment{
 	
-	protected Order decoratedPayment;
+	protected Payment decoratedPayment;
 
 	
-	public Payment_Decorators(Order decoratedPayment){
+	public Payment_Decorators(Payment decoratedPayment){
 	      this.decoratedPayment = decoratedPayment;
 	   }
 

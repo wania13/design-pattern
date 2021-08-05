@@ -2,7 +2,7 @@ package our_project;
 
 public class Voucher extends Payment_Decorators {
 	
-	public Voucher(Order decoratedPayment) {
+	public Voucher(Payment decoratedPayment) {
 	      super(decoratedPayment);		
 	   }
 	
