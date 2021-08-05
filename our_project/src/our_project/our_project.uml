@@ -510,6 +510,7 @@
       <packagedElement xmi:type="uml:Association" xmi:id="_DmkdkfUvEeuu9L-FIbK5gg" name="" memberEnd="_DmkdkvUvEeuu9L-FIbK5gg _DmTX0PUvEeuu9L-FIbK5gg">
         <ownedEnd xmi:id="_DmkdkvUvEeuu9L-FIbK5gg" name="" type="_Dj8nYPUvEeuu9L-FIbK5gg" association="_DmkdkfUvEeuu9L-FIbK5gg"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_0mR8gPWiEeuFhsbM4b8npg" name="NewClass1"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_Dipm4PUvEeuu9L-FIbK5gg" name="java">
       <packagedElement xmi:type="uml:Package" xmi:id="_DiqN8PUvEeuu9L-FIbK5gg" name="util">

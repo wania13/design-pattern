@@ -2,7 +2,7 @@ package our_project;
 
 import java.util.Scanner;
 
-public abstract class Client {
+public abstract class MainClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
